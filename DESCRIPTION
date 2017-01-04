@@ -1,0 +1,15 @@
+Package: eplimited
+Type: Package
+Title: Identify the R peaks in a ECG signal
+Version: 1.1
+Date: 2016-09-20
+Author: Georges Dupret
+Maintainer: Georges Dupret <ged@fullpower.com>
+Description: 
+    This is a wrapper around the QRSDet function from the EP limited OSEA library. The beat classification is not implemented yet.
+License: GPL (>= 2)
+Depends: R (>= 2.10)
+Imports:
+    Rcpp (>= 0.12.8)
+LinkingTo: Rcpp
+RoxygenNote: 5.0.1
